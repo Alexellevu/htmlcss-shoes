@@ -4,20 +4,21 @@
     margin: 0;
 }
 
-section{
 
-    height: 350px;
-    width: 60%;
-    
-    margin: 0 auto;
-}
 
 .contenuto{
     height: 100vh;
+    
+    width: 60%;
+    
+    margin: 0 auto;
+
+    position: relative;
 }
 
 .set_rosso{
     background-color: red;
+
     
 }
 
@@ -28,3 +29,20 @@ section{
 .set_giallo{
     background-color: yellow;
 }
+
+.image_block{
+    width: 35%;
+    height: 45%;
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50% , -50%);
+
+}
+
+.set_img{
+    width: 100%;
+    height: 60%;
+
+}
+
