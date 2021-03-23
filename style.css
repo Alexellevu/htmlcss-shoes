@@ -4,8 +4,7 @@
     margin: 0;
 }
 
-
-
+/* set contenitore */
 .contenuto{
     height: 100vh;
     position: relative;
@@ -13,8 +12,6 @@
 
 .set_rosso{
     background-color: red;
-
-    
 }
 
 .set_verde{
@@ -25,9 +22,10 @@
     background-color: yellow;
 }
 
+/* sezione immagine */
 .image_block{
-    width: 35%;
-   
+    
+    width:35%;
     position: absolute;
     left:50%;
     top:50%;
@@ -39,6 +37,35 @@
     width: 100%;
 }
 
+/* sezione link */
+.link_block{
+    position: absolute;
+    right:0;
+    top:0;
+    height: 15%;
+    width:35%;
+    margin-top: 35px;
+    padding-left: 260px;
+    
+    
+}
+
+.link_block> a{
+    text-decoration: none;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border:1px solid black;
+    border-radius: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom:15px;
+    margin-right: 16px;
+    }
+
+
+/* set carattere */
 .image_block>h2{
     font-family:'Rubik Mono One', sans-serif;
     text-align: center;
@@ -53,3 +80,4 @@
 .set_rosso,.set_verde>.image_block>h2{
     color: yellow;
 }
+
