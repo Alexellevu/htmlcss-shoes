@@ -8,11 +8,6 @@
 
 .contenuto{
     height: 100vh;
-    
-    
-    
-    margin: 0 auto;
-
     position: relative;
 }
 
@@ -42,16 +37,19 @@
 
 .set_img{
     width: 100%;
-
-
 }
 
 .image_block>h2{
-    font-family: 'Rubik Mono One', sans-serif;
+    font-family:'Rubik Mono One', sans-serif;
     text-align: center;
     font-weight: bold;
+    font-size: 35px;
 }
 
-.image_block.set_rosso h2{
-    color:yellow;
+.set_giallo>.image_block>h2{
+    color:red;
+}
+
+.set_rosso,.set_verde>.image_block>h2{
+    color: yellow;
 }
