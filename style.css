@@ -1,0 +1,30 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+
+    height: 350px;
+    width: 60%;
+    
+    margin: 0 auto;
+}
+
+.contenuto{
+    height: 100vh;
+}
+
+.set_rosso{
+    background-color: red;
+    
+}
+
+.set_verde{
+    background-color: green;
+}
+
+.set_giallo{
+    background-color: yellow;
+}
